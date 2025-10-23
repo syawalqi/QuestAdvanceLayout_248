@@ -1,5 +1,10 @@
 package com.example.pertemuan4.ui.theme
 
+import com.example.pertemuan4.R
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+
 @Composable
 fun ActivitasPertama(modifier: Modifier){
     Column(modifier = Modifier.padding(top = 100.dp)

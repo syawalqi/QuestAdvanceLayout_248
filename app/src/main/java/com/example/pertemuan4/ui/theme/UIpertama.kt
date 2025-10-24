@@ -61,15 +61,52 @@ fun ActivitasPertama(modifier: Modifier){
                 Spacer(modifier = Modifier.width(20.dp))
                 Column {
                     Text(
-                        text = stringResource(id = R.string.nama),
+                        text = stringResource(id = R.string.nama1),
                         fontSize = 28.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.Black
                     )
                     Text(
-                        text = stringResource(id = R.string.alamat),
+                        text = stringResource(id = R.string.alamat1),
                         fontSize = 20.sp,
                         color = Color.Blue
+                    )
+                }
+            }
+        }
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF1976D2)) // Blue
+        ) {
+            Row(modifier = Modifier.padding(10.dp)) {
+                val gambar = painterResource(id = R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+                Spacer(modifier = Modifier.width(20.dp))
+                Column {
+                    Text(
+                        text = stringResource(id = R.string.nama2),
+                        fontSize = 26.sp,
+                        fontFamily = FontFamily.SansSerif,
+                        color = Color.White
+                    )
+                    Text(
+                        text = stringResource(id = R.string.alamat2),
+                        fontSize = 20.sp,
+                        color = Color.Cyan
+                    )
+                    Text(
+                        text = stringResource(id = R.string.telepon2),
+                        fontSize = 18.sp,
+                        color = Color.LightGray
                     )
                 }
             }

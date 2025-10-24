@@ -2,7 +2,20 @@
     <string name="app_name">My UIPertama</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
-    <string name="nama">Galih Maulana</string>
-    <string name="alamat">Sleman</string>
+
+    <!-- Card 1 -->
+    <string name="nama1">Galih Maulana</string>
+    <string name="alamat1">Sleman</string>
+
+    <!-- Card 2 -->
+    <string name="nama2">Rina Putri</string>
+    <string name="alamat2">Bantul</string>
+    <string name="telepon2">+62 812 3456 7890</string>
+
+    <!-- Card 3 -->
+    <string name="nama3">Andi Saputra</string>
+    <string name="alamat3">Yogyakarta</string>
+    <string name="telepon3">+62 813 9876 5432</string>
+
     <string name="copy">Copyright 2025</string>
 </resources>

@@ -42,7 +42,7 @@ fun ActivitasPertama(modifier: Modifier){
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(height = 25.dp))
-
+        //card 1
         Card(
             modifier = Modifier
                 .fillMaxWidth(fraction = 1f)
@@ -76,10 +76,10 @@ fun ActivitasPertama(modifier: Modifier){
                 }
             }
         }
-
+        //card 2
         Card(
             modifier = Modifier
-                .fillMaxWidth()
+                .fillMaxWidth(fraction = 1f)
                 .padding(12.dp),
             colors = CardDefaults.cardColors(containerColor = Color(0xFF1976D2)) // Blue
         ) {
@@ -92,19 +92,21 @@ fun ActivitasPertama(modifier: Modifier){
                         .size(100.dp)
                         .padding(5.dp)
                 )
-                Spacer(modifier = Modifier.width(20.dp))
+                Spacer(modifier = Modifier.width(30.dp))
                 Column {
                     Text(
                         text = stringResource(id = R.string.nama2),
-                        fontSize = 26.sp,
+                        fontSize = 30.sp,
                         fontFamily = FontFamily.SansSerif,
                         color = Color.White
                     )
+                    Spacer(modifier = Modifier.height(8.dp))
                     Text(
                         text = stringResource(id = R.string.alamat2),
                         fontSize = 20.sp,
                         color = Color.Cyan
                     )
+                    Spacer(modifier = Modifier.height(8.dp))
                     Text(
                         text = stringResource(id = R.string.telepon2),
                         fontSize = 18.sp,
@@ -113,10 +115,10 @@ fun ActivitasPertama(modifier: Modifier){
                 }
             }
         }
-
+        //card 3
         Card(
             modifier = Modifier
-                .fillMaxWidth()
+                .fillMaxWidth(fraction = 1f)
                 .padding(12.dp),
             colors = CardDefaults.cardColors(containerColor = Color(0xFF388E3C)) // Green
         ) {
@@ -129,19 +131,21 @@ fun ActivitasPertama(modifier: Modifier){
                         .size(100.dp)
                         .padding(5.dp)
                 )
-                Spacer(modifier = Modifier.width(20.dp))
+                Spacer(modifier = Modifier.width(30.dp))
                 Column {
                     Text(
                         text = stringResource(id = R.string.nama3),
-                        fontSize = 26.sp,
+                        fontSize = 30.sp,
                         fontFamily = FontFamily.SansSerif,
                         color = Color.White
                     )
+                    Spacer(modifier = Modifier.height(8.dp))
                     Text(
                         text = stringResource(id = R.string.alamat3),
                         fontSize = 20.sp,
                         color = Color.Cyan
                     )
+                    Spacer(modifier = Modifier.height(8.dp))
                     Text(
                         text = stringResource(id = R.string.telepon3),
                         fontSize = 18.sp,

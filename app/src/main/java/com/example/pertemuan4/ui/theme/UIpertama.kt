@@ -112,6 +112,43 @@ fun ActivitasPertama(modifier: Modifier){
             }
         }
 
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF388E3C)) // Green
+        ) {
+            Row(modifier = Modifier.padding(10.dp)) {
+                val gambar = painterResource(id = R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+                Spacer(modifier = Modifier.width(20.dp))
+                Column {
+                    Text(
+                        text = stringResource(id = R.string.nama3),
+                        fontSize = 26.sp,
+                        fontFamily = FontFamily.SansSerif,
+                        color = Color.White
+                    )
+                    Text(
+                        text = stringResource(id = R.string.alamat3),
+                        fontSize = 20.sp,
+                        color = Color.Cyan
+                    )
+                    Text(
+                        text = stringResource(id = R.string.telepon3),
+                        fontSize = 18.sp,
+                        color = Color.LightGray
+                    )
+                }
+            }
+        }
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
